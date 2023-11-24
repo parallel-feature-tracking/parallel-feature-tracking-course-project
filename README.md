@@ -1,5 +1,5 @@
 # Scalable Parallel Feature Extraction and Tracking for Large Time-Varying 3D Volume Data
-Our implementation of the paper Scalable Parallel Feature Extraction and Tracking for Large Time-varying 3D Volume Data.
+Our implementation of the paper Scalable Parallel Feature Extraction and Tracking for Large Time-varying 3D Volume Data. We built this as a part of our course CS677: Topics in Large Data Analysis and Visualization
 
 To run the code the following libraries need to be present:
   - A CPP compiler
@@ -33,4 +33,6 @@ Now run the following command
 ```
 ../run_script.sh
 ```
+
+
 
