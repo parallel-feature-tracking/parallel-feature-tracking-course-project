@@ -34,5 +34,10 @@ Now run the following command
 ../run_script.sh
 ```
 
+## python file information
 
+- `binary_merger.py` merges all the binary outputs of each of the processors
+- `binary_to_vti.py` for converting binary files to .vti file
+- `vti_to_binary.py` for converting .vti to binary
+- ``
 
