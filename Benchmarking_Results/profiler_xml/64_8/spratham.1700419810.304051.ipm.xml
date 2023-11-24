@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ipm_job_profile>
+<calltable nsections="1" >
+<section module="MPI" nentries="69" >
+<entry name="MPI_Init" />
+<entry name="MPI_Init_thread" />
+<entry name="MPI_Finalize" />
+<entry name="MPI_Comm_rank" />
+<entry name="MPI_Comm_size" />
+<entry name="MPI_Send" />
+<entry name="MPI_Ssend" />
+<entry name="MPI_Rsend" />
+<entry name="MPI_Bsend" />
+<entry name="MPI_Isend" />
+<entry name="MPI_Issend" />
+<entry name="MPI_Irsend" />
+<entry name="MPI_Ibsend" />
+<entry name="MPI_Recv" />
+<entry name="MPI_Irecv" />
+<entry name="MPI_Sendrecv" />
+<entry name="MPI_Sendrecv_replace" />
+<entry name="MPI_Wait" />
+<entry name="MPI_Waitany" />
+<entry name="MPI_Waitall" />
+<entry name="MPI_Waitsome" />
+<entry name="MPI_Probe" />
+<entry name="MPI_Iprobe" />
+<entry name="MPI_Send_init" />
+<entry name="MPI_Ssend_init" />
+<entry name="MPI_Rsend_init" />
+<entry name="MPI_Bsend_init" />
+<entry name="MPI_Recv_init" />
+<entry name="MPI_Buffer_attach" />
+<entry name="MPI_Buffer_detach" />
+<entry name="MPI_Test" />
+<entry name="MPI_Testany" />
+<entry name="MPI_Testall" />
+<entry name="MPI_Testsome" />
+<entry name="MPI_Start" />
+<entry name="MPI_Startall" />
+<entry name="MPI_Bcast" />
+<entry name="MPI_Reduce" />
+<entry name="MPI_Reduce_scatter" />
+<entry name="MPI_Barrier" />
+<entry name="MPI_Gather" />
+<entry name="MPI_Gatherv" />
+<entry name="MPI_Scatter" />
+<entry name="MPI_Scatterv" />
+<entry name="MPI_Scan" />
+<entry name="MPI_Allgather" />
+<entry name="MPI_Allgatherv" />
+<entry name="MPI_Allreduce" />
+<entry name="MPI_Alltoall" />
+<entry name="MPI_Alltoallv" />
+<entry name="MPI_Comm_group" />
+<entry name="MPI_Comm_compare" />
+<entry name="MPI_Comm_dup" />
+<entry name="MPI_Comm_create" />
+<entry name="MPI_Comm_split" />
+<entry name="MPI_Comm_free" />
+<entry name="MPI_Ibcast" />
+<entry name="MPI_Ireduce" />
+<entry name="MPI_Ireduce_scatter" />
+<entry name="MPI_Igather" />
+<entry name="MPI_Igatherv" />
+<entry name="MPI_Iscatter" />
+<entry name="MPI_Iscatterv" />
+<entry name="MPI_Iscan" />
+<entry name="MPI_Iallgather" />
+<entry name="MPI_Iallgatherv" />
+<entry name="MPI_Iallreduce" />
+<entry name="MPI_Ialltoall" />
+<entry name="MPI_Ialltoallv" />
+</section>
+</calltable>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="0" mpi_size="8" stamp_init="1700419810.304051" stamp_final="1700419819.563294" username="spratham" allocationname="unknown" flags="0" pid="117766" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.25924e+00" utime="2.98909e+00" stime="5.19960e-02" mtime="4.41441e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa0000267f237f287f1a56267fa2" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.25502e+00" utime="2.98888e+00" stime="4.79770e-02" mtime="4.41441e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 5.2452e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Send" count="68" bytes="7.6880e+03" > 2.1935e-04 </func>
+<func name="MPI_Irecv" count="43" bytes="9.4000e+02" > 2.2173e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 3.1268e+00 </func>
+<func name="MPI_Allgatherv" count="4" bytes="1.2320e+03" > 7.9385e-02 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.2080e+00 </func>
+</region>
+</regions>
+<internal rank="0" log_i="1700419819.563294" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="1" mpi_size="8" stamp_init="1700419810.326198" stamp_final="1700419819.580259" username="spratham" allocationname="unknown" flags="0" pid="117767" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.25406e+00" utime="3.02174e+00" stime="2.41060e-02" mtime="2.24636e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa00006c7f6b7f6c7f24556c7f86" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.24984e+00" utime="3.02157e+00" stime="2.00640e-02" mtime="2.24636e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 4.0531e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 9.5367e-07 </func>
+<func name="MPI_Send" count="64" bytes="8.7680e+03" > 2.8658e-04 </func>
+<func name="MPI_Irecv" count="33" bytes="1.2080e+03" > 3.0279e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 8.5385e-01 </func>
+<func name="MPI_Allgatherv" count="4" bytes="1.2800e+03" > 8.1531e-02 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.3107e+00 </func>
+</region>
+</regions>
+<internal rank="1" log_i="1700419819.580259" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="2" mpi_size="8" stamp_init="1700419810.338398" stamp_final="1700419819.535267" username="spratham" allocationname="unknown" flags="0" pid="117769" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.19687e+00" utime="6.08062e+00" stime="2.80140e-02" mtime="6.15593e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa00002f7f2f7f307f54562f7fdb" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.19265e+00" utime="6.07641e+00" stime="2.80140e-02" mtime="6.15593e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 2.3842e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 9.5367e-07 </func>
+<func name="MPI_Send" count="62" bytes="4.7320e+03" > 2.5272e-04 </func>
+<func name="MPI_Irecv" count="36" bytes="1.0280e+03" > 3.9577e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 4.9017e+00 </func>
+<func name="MPI_Allgatherv" count="4" bytes="7.6800e+02" > 1.0454e-01 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.1494e+00 </func>
+</region>
+</regions>
+<internal rank="2" log_i="1700419819.535267" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="3" mpi_size="8" stamp_init="1700419810.354199" stamp_final="1700419819.549961" username="spratham" allocationname="unknown" flags="0" pid="117770" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.19576e+00" utime="5.97030e+00" stime="3.23440e-02" mtime="4.78892e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa00005d7f5d7f5d7fc0565d7f30" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.19153e+00" utime="5.97012e+00" stime="2.82970e-02" mtime="4.78892e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 3.8147e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 3.0994e-06 </func>
+<func name="MPI_Send" count="50" bytes="2.5960e+03" > 1.0872e-04 </func>
+<func name="MPI_Irecv" count="33" bytes="7.9200e+02" > 4.0531e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 3.3989e+00 </func>
+<func name="MPI_Allgatherv" count="4" bytes="6.4000e+02" > 1.1486e-01 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.2750e+00 </func>
+</region>
+</regions>
+<internal rank="3" log_i="1700419819.549961" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="4" mpi_size="8" stamp_init="1700419810.376489" stamp_final="1700419819.569081" username="spratham" allocationname="unknown" flags="0" pid="117774" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.19259e+00" utime="6.09678e+00" stime="2.41790e-02" mtime="6.07540e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa0000567f557f567f2c55567fce" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.17954e+00" utime="6.09272e+00" stime="2.40120e-02" mtime="6.07540e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 2.1458e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 1.9073e-06 </func>
+<func name="MPI_Send" count="60" bytes="7.7360e+03" > 2.0146e-04 </func>
+<func name="MPI_Irecv" count="45" bytes="1.8200e+03" > 3.6240e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 4.7892e+00 </func>
+<func name="MPI_Allgatherv" count="4" bytes="1.7920e+03" > 9.7399e-02 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.1886e+00 </func>
+</region>
+</regions>
+<internal rank="4" log_i="1700419819.569081" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="5" mpi_size="8" stamp_init="1700419810.379340" stamp_final="1700419819.586456" username="spratham" allocationname="unknown" flags="0" pid="117778" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.20712e+00" utime="5.89718e+00" stime="3.56650e-02" mtime="4.95246e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa0000647f647f647f2355647f91" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.19488e+00" utime="5.89669e+00" stime="3.19310e-02" mtime="4.95246e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 2.8610e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Send" count="54" bytes="6.9080e+03" > 2.6965e-04 </func>
+<func name="MPI_Irecv" count="29" bytes="5.2400e+02" > 2.0742e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 3.5604e+00 </func>
+<func name="MPI_Allgatherv" count="4" bytes="1.1200e+03" > 1.1335e-01 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.2784e+00 </func>
+</region>
+</regions>
+<internal rank="5" log_i="1700419819.586456" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="6" mpi_size="8" stamp_init="1700419810.398281" stamp_final="1700419819.591331" username="spratham" allocationname="unknown" flags="0" pid="117779" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.19305e+00" utime="3.01802e+00" stime="4.00160e-02" mtime="4.61381e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa0000117f107f117f3455117f74" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.16809e+00" utime="3.01781e+00" stime="3.52730e-02" mtime="4.61381e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 4.7684e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Send" count="56" bytes="4.3840e+03" > 2.1148e-04 </func>
+<func name="MPI_Irecv" count="24" bytes="9.6000e+01" > 1.5259e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 3.2771e+00 </func>
+<func name="MPI_Allgatherv" count="4" bytes="6.2400e+02" > 1.6528e-01 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.1712e+00 </func>
+</region>
+</regions>
+<internal rank="6" log_i="1700419819.591331" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+<task ipm_version="2.0.6" cookie="nocookie" mpi_rank="7" mpi_size="8" stamp_init="1700419810.421600" stamp_final="1700419819.547998" username="spratham" allocationname="unknown" flags="0" pid="117780" >
+<job nhosts="1" ntasks="8" start="1700419810" final="1700419819" cookie="nocookie" code="unknown" >unknown</job>
+<host mach_name="x86_64" mach_info="x86_64_Linux" >csews9</host>
+<perf wtime="9.12640e+00" utime="3.01745e+00" stime="1.82070e-02" mtime="6.76429e+00" gflop="0.00000e+00" gbyte="4.53911e-02" ></perf>
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<switch bytes_tx="0.00000e+00" bytes_rx="0.00000e+00" ></switch>
+<cmdline realpath="/users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/build2/pfet" md5sum="12e68faa0000ff7fff7fff7fa855ff7f5a" >./pfet 2 2 2 /users/btech/spratham/Desktop/ScalablePFET/PFET_nov8/PFET/vorts.config </cmdline>
+<regions n="1" >
+<region label="ipm_noregion" nexits="1" wtime="9.12203e+00" utime="3.01728e+00" stime="1.40160e-02" mtime="6.76429e+00" id="0" >
+<modules nmod="1">
+<module name="MPI" time="4.41441e+00" ></module>
+</modules>
+<func name="MPI_Init" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Finalize" count="1" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Comm_rank" count="15" bytes="0.0000e+00" > 3.0994e-06 </func>
+<func name="MPI_Comm_size" count="5" bytes="0.0000e+00" > 0.0000e+00 </func>
+<func name="MPI_Send" count="30" bytes="1.8000e+02" > 1.6451e-05 </func>
+<func name="MPI_Irecv" count="13" bytes="1.6000e+02" > 2.3127e-05 </func>
+<func name="MPI_Allgather" count="23" bytes="9.2000e+01" > 5.4118e+00 </func>
+<func name="MPI_Allgatherv" count="4" bytes="2.4000e+01" > 1.2766e-01 </func>
+<func name="MPI_Allreduce" count="48" bytes="7.8000e+01" > 1.2247e+00 </func>
+</region>
+</regions>
+<internal rank="7" log_i="1700419819.547998" log_t="1.7004e+09" report_delta="-1.0000e+00" fname="./spratham.1700419810.304051.ipm.xml" logrank="0" ></internal>
+</task>
+</ipm_job_profile>
