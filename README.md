@@ -40,5 +40,5 @@ Now run the following command
 - `binary_to_vti.py` for converting binary files to .vti file
 - `vti_to_binary.py` for converting .vti to binary
 - `tfe_writer.py` for writing the .tfe file from the colormap.json file
-- 
+- `normalize_data.py` for normalizing the data
 
